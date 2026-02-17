@@ -59,6 +59,22 @@ Create `EXPLANATION.md` (max 250 words) containing:
 - **Why does your fix solve it?**
 - **One realistic case / edge case your tests still don’t cover**
 
+## Running Tests
+
+### Local
+
+```bash
+pip install -r requirements.txt
+python -m pytest -v
+```
+
+### Docker
+
+```bash
+docker build -t ai-experts-assignment .
+docker run --rm ai-experts-assignment
+```
+
 ## Submission
 
 - Submit a public GitHub repository URL containing your solution to the Google form link provided.
